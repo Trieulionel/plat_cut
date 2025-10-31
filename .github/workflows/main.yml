@@ -41,7 +41,7 @@ jobs:
 
       # 6️⃣ Build executable
       - name: Build executable
-        run: pyinstaller --onefile rename_pdfs_gui7.py
+        run: pyinstaller --onefile plat_cut.py
 
       # 7️⃣ Upload artifact
       - name: Upload build artifact
